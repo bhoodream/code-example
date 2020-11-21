@@ -1,12 +1,7 @@
 import React from 'react';
 
+import { RatData } from '../../types';
 import { DEFAULT_NICK_NAME } from '../../Const';
-
-export interface RatData {
-    width: number;
-    height: number;
-    nickname?: string;
-}
 
 const Rat = (props: RatData) => {
     const { width, height, nickname = DEFAULT_NICK_NAME } = props;
