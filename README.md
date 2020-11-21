@@ -1,1 +1,1 @@
-A small part of the code from the actual test task!
+A small part of the code from the recent test task!
