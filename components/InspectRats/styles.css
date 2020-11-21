@@ -1,0 +1,11 @@
+.InspectRats {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@media (min-width: 550px) {
+    .InspectRats {
+        flex-direction: row;
+    }
+}

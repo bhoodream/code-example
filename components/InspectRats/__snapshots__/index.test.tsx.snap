@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InspectRats snapshots 1`] = `
+<div
+  className="InspectRats"
+>
+  <div
+    className="InspectRat__select"
+  >
+    <select
+      defaultValue=""
+      disabled={false}
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        No Rat
+      </option>
+      <option
+        value="rat1"
+      >
+        rat1
+      </option>
+      <option
+        value="rat2"
+      >
+        rat2
+      </option>
+      <option
+        value="rat3"
+      >
+        rat3
+      </option>
+    </select>
+  </div>
+</div>
+`;

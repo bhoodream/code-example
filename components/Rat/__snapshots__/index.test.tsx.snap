@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rat snapshots 1`] = `
+<div>
+  <div>
+    width: 
+    1
+  </div>
+  <div>
+    height: 
+    2
+  </div>
+  <div>
+    nickname: 
+    test
+  </div>
+</div>
+`;
+
+exports[`Rat snapshots 2`] = `
+<div>
+  <div>
+    width: 
+    1
+  </div>
+  <div>
+    height: 
+    2
+  </div>
+  <div>
+    nickname: 
+    Uncool Rat with no Nickname
+  </div>
+</div>
+`;
