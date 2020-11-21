@@ -45,10 +45,10 @@ class InspectRats extends Component<InspectRatsProps, InspectRatsState> {
     }
 
     onRatDataLoaded(name: RatName, data: RatData) {
-        this.setState({
+        this.setState((state: InspectRatsState) => {
             loading: false,
             ratDataMap: {
-                ...this.state.ratDataMap,
+                ...state.ratDataMap,
                 [name]: data,
             },
         });
